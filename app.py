@@ -5,7 +5,7 @@ import time
 import pandas as pd
 import plotly.graph_objects as px
 
-
+st.set_page_config(layout="wide")
 st.title("冰水主機節電操作")
 
 placeholder = st.empty()
